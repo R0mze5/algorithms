@@ -1,0 +1,5 @@
+{
+  "inspect": "./src",
+  "ext": "ts,tsx,js",
+  "exec": "webpack && node ./dist/bundle.js"
+}
