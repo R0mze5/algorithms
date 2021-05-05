@@ -6,6 +6,14 @@ const sortedArray = array.sort();
 
 const searchableValue = 7;
 
+beforeAll(() => {
+  global.console.log = jest.fn();
+});
+
+afterAll(() => {
+  jest.resetAllMocks();
+});
+
 describe("linear search", () => {
   it("should find index of existed searchable element", () => {
     expect(linearSearch(array, searchableValue)).toBe(array.indexOf(searchableValue));

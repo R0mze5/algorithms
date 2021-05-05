@@ -20,4 +20,13 @@ module.exports = {
     "linebreak-style": 0,
     "max-len": ["error", { code: 100, ignoreComments: true }],
   },
+  overrides: [
+    {
+      files: ["./src/**/index.ts"],
+      rules: {
+        "no-console": 0,
+        "no-unused-vars": 0,
+      },
+    },
+  ],
 };
