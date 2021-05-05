@@ -2,6 +2,7 @@ import { linearSearch } from './linear';
 import { binarySearch } from './binary';
 
 const array = [1, 5, 2, 7, 3, 9, 8];
+
 // const sortedArray = array.sort();
 const sortedArray:Array<number> = [];
 
