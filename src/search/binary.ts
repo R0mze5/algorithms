@@ -1,4 +1,4 @@
-// с помощью циклов
+// with cycle search
 export function binarySearch(array :Array<number>, item: number) : number {
   let count = 0;
 
@@ -31,5 +31,5 @@ export function binarySearch(array :Array<number>, item: number) : number {
   return position;
 }
 
-// работает только с отсортированным массивом
-// сложность алгоритма O(n), где n  - количество элементов итераций в массиве
+// only works with sorted array
+// the complexity of the algorithm is O (n), where n is the number of iteration elements in the array

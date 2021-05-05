@@ -13,4 +13,4 @@ export function linearSearch(array :Array<number>, item: number) : number | null
   return null;
 }
 
-// сложность алгоритма O(n), где n  - количество элементов итераций в массиве
+// the complexity of the algorithm is O (n), where n is the number of iteration elements in the array
