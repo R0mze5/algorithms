@@ -1,4 +1,4 @@
-import { binarySearch } from 'binary';
+import { binarySearch } from './binary';
 
 describe('ug', () => {
   it.todo('hvhh');

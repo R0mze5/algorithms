@@ -1,2 +1,34 @@
+lib-cov
+*.seed
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+tmp
+
+# ignore logs
+logs
+*.log
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env*
+
+# Dependency directory
 node_modules
-dist
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*

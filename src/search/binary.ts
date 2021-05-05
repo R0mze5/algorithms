@@ -3,6 +3,7 @@ export function binarySearch(array :Array<number>, item: number) : number {
   let count = 0;
 
   let start = 0;
+
   let end = array.length;
   let found = false;
   let position = -1;
