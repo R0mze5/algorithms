@@ -1,3 +1,3 @@
-import { search } from './search';
+import { search } from "./search";
 
 search();

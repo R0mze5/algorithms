@@ -1,4 +1,4 @@
 export default {
-  coverageDirectory: 'coverage',
-  testEnvironment: 'node',
+  coverageDirectory: "coverage",
+  testEnvironment: "node",
 };

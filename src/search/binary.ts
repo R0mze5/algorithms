@@ -1,5 +1,8 @@
+// only works with sorted array
+// the complexity of the algorithm is O (n), where n is the number of iteration elements in the array
+
 // with cycle search
-export function binarySearch(array :Array<number>, item: number) : number {
+export function binarySearch(array: Array<number>, item: number): number {
   let count = 0;
 
   let start = 0;
@@ -31,5 +34,6 @@ export function binarySearch(array :Array<number>, item: number) : number {
   return position;
 }
 
-// only works with sorted array
-// the complexity of the algorithm is O (n), where n is the number of iteration elements in the array
+export function binaryRecursiveSearch(array: Array<number>, item: number): number {
+  return -1;
+}
