@@ -12,11 +12,11 @@ afterAll(() => {
   jest.resetAllMocks();
 });
 
-// describe("bubble sorting", () => {
-//   it("should sorting array", () => {
-//     expect(bubbleSorting(array)).toStrictEqual(sortedArray);
-//   });
-// });
+describe("bubble sorting", () => {
+  it("should sorting array", () => {
+    expect(bubbleSorting(array)).toStrictEqual(sortedArray);
+  });
+});
 
 describe("selection sorting", () => {
   it("should sorting array", () => {

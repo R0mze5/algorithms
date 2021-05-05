@@ -1,3 +1,4 @@
+// the complexity of the algorithm is O (n*(n-1)), where n is the number of iteration elements in the array
 let count = 0;
 export const selectionSort = <T>(convertedArray: Array<T>): Array<T> => {
   const array = convertedArray;
