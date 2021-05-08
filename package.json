@@ -33,7 +33,6 @@
     "lint": "eslint \"**/*.{ts,tsx}\"",
     "lint:fix": "npm run lint -- --fix",
     "test": "jest --watch",
-    "test:check": "jest",
-    "prepare": "husky install"
+    "test:check": "jest"
   }
 }

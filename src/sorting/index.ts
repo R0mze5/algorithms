@@ -9,4 +9,6 @@ for (let i = 0; i < 1000000; i++) {
 
 export function sorting() {
   console.log(selectionSort(array));
+
+  return sortedArray;
 }

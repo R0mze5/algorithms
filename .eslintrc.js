@@ -19,12 +19,18 @@ module.exports = {
     "no-unused-vars": 1,
     "linebreak-style": 0,
     "max-len": ["error", { code: 100, ignoreComments: true }],
+    "no-continue": 0,
   },
   overrides: [
     {
-      files: ["./src/**/index.ts"],
+      files: ["./src/**/*.ts"],
       rules: {
         "no-console": 0,
+      },
+    },
+    {
+      files: ["./src/**/index.ts"],
+      rules: {
         "no-unused-vars": 0,
       },
     },

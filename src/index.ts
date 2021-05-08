@@ -1,4 +1,6 @@
 import { search } from "./search";
 import { sorting } from "./sorting";
 
-sorting();
+const a = sorting();
+
+a.push(12);
