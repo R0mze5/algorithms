@@ -1,7 +1,9 @@
-type TGraphNodeName = string;
-type TGraphNode = Record<TGraphNodeName, number>;
+import { TDijkstraGraphNode, TGraphNodeName } from "@types";
 
-function findNodeLowestCost(costs: TGraphNode, processed: Array<TGraphNodeName>): TGraphNodeName {
+function findNodeLowestCost(
+  costs: TDijkstraGraphNode,
+  processed: Array<TGraphNodeName>
+): TGraphNodeName {
   let lowestCost = Infinity;
 
   let lowestNode;
@@ -19,11 +21,11 @@ function findNodeLowestCost(costs: TGraphNode, processed: Array<TGraphNodeName>)
 }
 
 export const dijkstraSearch = (
-  graph: Record<string, TGraphNode>,
+  graph: Record<string, TDijkstraGraphNode>,
   start: string
   // end: string
 ): Record<string, number> => {
-  const costs: TGraphNode = {};
+  const costs: TDijkstraGraphNode = {};
   const processed: Array<TGraphNodeName> = [];
   let neighbors: Record<string, number> = {};
 

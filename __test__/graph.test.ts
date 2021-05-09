@@ -1,7 +1,8 @@
+import { TDijkstraGraphNode, TGraphNode, TGraphNodeName } from "@types";
 import { breadthFirstSearch } from "../src/graph/breadthFirstSearch";
 // import { dijkstraSearch } from "../src/graph/dijkstraSearch";
 
-const graph: Record<string, Array<string>> = {};
+const graph: Record<TGraphNodeName, TGraphNode> = {};
 
 graph.a = ["b", "c"];
 graph.b = ["f"];
@@ -20,7 +21,7 @@ graph.f = ["g"];
 //   [0, 0, 0, 0, 0, 0, 0],
 // ];
 
-const dijkstraGraph: Record<string, Record<string, number>> = {};
+const dijkstraGraph: Record<TGraphNodeName, TDijkstraGraphNode> = {};
 dijkstraGraph.a = { b: 2, c: 1 };
 dijkstraGraph.b = { f: 7 };
 dijkstraGraph.c = { d: 5, e: 2 };

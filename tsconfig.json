@@ -4,6 +4,8 @@
     "noImplicitAny": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "sourceMap": true
+    "sourceMap": true,
+    "baseUrl": "./",
+    "types": ["./@types", "jest", "node"]
   }
 }
