@@ -24,8 +24,12 @@ afterAll(() => {
 });
 
 describe("Recursive Tree Traversal", () => {
-  it.todo("should find existed path");
+  it("should return correct tree weight", () => {
+    expect(recursiveTreeTraversal(tree)).toBe(69);
+  });
 });
 describe("Iteration Tree Traversal", () => {
-  it.todo("should find existed path");
+  it("should return correct tree weight", () => {
+    expect(iterationTreeTraversal(tree)).toBe(69);
+  });
 });
