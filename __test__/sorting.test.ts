@@ -15,18 +15,18 @@ afterAll(() => {
 
 describe("bubble sorting", () => {
   it("should sorting array", () => {
-    expect(bubbleSorting(array)).toStrictEqual(sortedArray);
+    expect(bubbleSorting([...array])).toStrictEqual(sortedArray);
   });
 });
 
 describe("selection sorting", () => {
   it("should sorting array", () => {
-    expect(selectionSort(array)).toStrictEqual(sortedArray);
+    expect(selectionSort([...array])).toStrictEqual(sortedArray);
   });
 });
 
 describe("quick sorting", () => {
   it("should sorting array", () => {
-    expect(quickSort(array)).toStrictEqual(sortedArray);
+    expect(quickSort([...array])).toStrictEqual(sortedArray);
   });
 });

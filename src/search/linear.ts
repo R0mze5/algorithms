@@ -1,6 +1,6 @@
 let count = 0;
 
-export function linearSearch(array: Array<number>, item: number): number | null {
+export function linearSearch(array: Array<number>, item: number): number {
   for (let i = 0; i < array.length; i++) {
     count++;
     if (array[i] === item) {
@@ -10,7 +10,7 @@ export function linearSearch(array: Array<number>, item: number): number | null 
   }
 
   console.log({ count });
-  return null;
+  return -1;
 }
 
 // the complexity of the algorithm is O (n), where n is the number of iteration elements in the array
