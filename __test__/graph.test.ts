@@ -1,6 +1,7 @@
 import { TDijkstraGraphNode, TGraphNode, TGraphNodeName } from "@types";
 import { breadthFirstSearch } from "../src/graph/breadthFirstSearch";
 // import { dijkstraSearch } from "../src/graph/dijkstraSearch";
+import { BinaryTreeSearch } from "../src/graph/binaryTreeSearch";
 
 const graph: Record<TGraphNodeName, TGraphNode> = {};
 
@@ -30,8 +31,12 @@ dijkstraGraph.e = { f: 1 };
 dijkstraGraph.f = { g: 1 };
 dijkstraGraph.g = {};
 
+const mockLog = jest.fn();
+
+beforeEach(() => jest.clearAllMocks());
+
 beforeAll(() => {
-  global.console.log = jest.fn();
+  global.console.log = mockLog;
 });
 
 afterAll(() => {
@@ -51,4 +56,17 @@ describe("Breadth-first search", () => {
 describe("Dijkstra's search", () => {
   it.todo("should find existed path");
   it.todo("should not find inexistent path");
+});
+
+describe("binary tree search", () => {
+  const binaryTree = new BinaryTreeSearch();
+
+  const binaryValues = [5, 2, 6, 2, 1];
+
+  binaryValues.forEach((value) => binaryTree.add(value));
+
+  it("should print all added values", () => {
+    binaryTree.print();
+    expect(mockLog).toBeCalledTimes(binaryValues.length);
+  });
 });
