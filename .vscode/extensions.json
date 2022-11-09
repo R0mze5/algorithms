@@ -1,3 +1,10 @@
 {
-  "recommendations": ["orta.vscode-jest", "wallabyjs.quokka-vscode", "wallabyjs.wallaby-vscode"]
+  "recommendations": [
+    "orta.vscode-jest",
+    "wallabyjs.quokka-vscode",
+    "wallabyjs.wallaby-vscode",
+    "dbaeumer.vscode-eslint",
+    "codezombiech.gitignore",
+    "andys8.jest-snippets"
+  ]
 }

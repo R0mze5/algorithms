@@ -6,6 +6,8 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
     "baseUrl": "./",
     "types": ["./@types", "jest", "node"]
   }
