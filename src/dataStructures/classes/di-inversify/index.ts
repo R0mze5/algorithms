@@ -6,7 +6,7 @@ import { Dog } from "./dog";
 
 class Index {
   createDog() {
-    const dog = myContainer.get<Dog>(Types.Dog);
+    const dog = myContainer.get<Dog>(TYPES.Dog);
     dog.bark("bow-wow");
   }
 }

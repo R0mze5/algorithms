@@ -20,6 +20,12 @@ module.exports = {
     "linebreak-style": 0,
     "max-len": ["error", { code: 100, ignoreComments: true }],
     "no-continue": 0,
+    camelcase: 0,
+    "no-use-before-define": 0,
+    "no-restricted-syntax": 0,
+    "guard-for-in": 0,
+    "no-useless-constructor": 0,
+    "no-empty-function": 0,
   },
   overrides: [
     {

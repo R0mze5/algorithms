@@ -1,4 +1,5 @@
 import { injectable, inject } from "inversify";
+import { IOutput } from "./interfaces";
 import { TYPES } from "./types";
 
 @injectable()
