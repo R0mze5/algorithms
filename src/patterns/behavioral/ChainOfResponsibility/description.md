@@ -1,4 +1,4 @@
-# Chain of Responsibility Design Pattern
+# Decorator Design Pattern
 
 ## Overview
 
@@ -14,6 +14,14 @@ The chain that the object will pass through is normally dynamic at runtime, alth
 
 ## Terminology
 
-- Handler Interface: A common interface for handling and passing objects through each successor.
-- Concrete Handler: The class acting as the Successor handling the requests and passing onto the next.
-- Client: The application or class that initiates the call to the first concrete handler (successor) in the chain.
+* **Handler Interface**: A common interface for handling and passing objects through each successor.
+* **Concrete Handler**: The class acting as the Successor handling the requests and passing onto the next.
+* **Client**: The application or class that initiates the call to the first concrete handler (successor) in the chain.
+
+> ![UML Diagram](./UML.svg)
+>
+> [concept code](./concept.ts)
+
+## Summary
+
+[<--- Back to patterns list](../../patterns.md)

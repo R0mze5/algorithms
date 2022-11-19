@@ -26,6 +26,7 @@ module.exports = {
     "guard-for-in": 0,
     "no-useless-constructor": 0,
     "no-empty-function": 0,
+    "no-param-reassign": 0,
   },
   overrides: [
     {

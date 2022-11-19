@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 // The Chain Of Responsibility Pattern Concept
 
 interface IHandler {
