@@ -20,6 +20,7 @@ In JavaScript, you have mutable objects such as Arrays, Dictionaries, Sets and a
 * **Client**: The client application that uses and creates the ProtoType.
 
 > ![UML Diagram](./UML.svg)
+>
 > [concept code](./concept.ts)
 
 ## Summary

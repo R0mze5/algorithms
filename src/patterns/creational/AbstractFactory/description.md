@@ -19,6 +19,7 @@ To begin with, in simple terms, think if it as a Factory that can return Factori
 * **Concrete Product**: The object that is finally returned.
 
 > ![UML Diagram](./UML.svg)
+>
 > [concept code](./concept.ts)
 
 ## Summary

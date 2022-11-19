@@ -11,6 +11,7 @@ By creating a class and following the Singleton pattern, you can enforce that ev
 The Singleton can be accessible globally, but it is not a global variable. The Singleton class can be instanced at any time, but after it is first instanced, any new instances will point to the same instance as the first.
 
 > ![UML Diagram](./UML.svg)
+>
 > [concept code](./concept.ts)
 
 ## Summary

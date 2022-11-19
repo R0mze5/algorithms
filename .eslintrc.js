@@ -18,7 +18,7 @@ module.exports = {
     "import/extensions": 0,
     "no-unused-vars": 1,
     "linebreak-style": 0,
-    "max-len": ["error", { code: 100, ignoreComments: true }],
+    "max-len": ["warn", { code: 100, ignoreComments: true }],
     "no-continue": 0,
     camelcase: 0,
     "no-use-before-define": 0,

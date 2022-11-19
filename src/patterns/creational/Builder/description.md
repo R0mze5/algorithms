@@ -18,6 +18,7 @@ The Builder and Factory patterns are very similar in the fact they both instanti
 * **Director**: Has a construct() method that when called creates a customized product using the methods of the **Builder**.
 
 > ![UML Diagram](./UML.svg)
+>
 > [concept code](./concept.ts)
 
 ## Summary
